@@ -15,4 +15,9 @@ public class ServerInput : MonoBehaviour
 
         displayMsg.GetComponent<Text>().text = "Server IP: " + serverIP;
     }
+
+    public string getServerIP()
+    {
+        return serverIP;
+    }
 }

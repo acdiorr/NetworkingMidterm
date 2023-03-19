@@ -20,7 +20,7 @@ public class OverlayUpdate : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(position);
+        //Debug.Log(position);
         myText.text = "Position X: " + position;    
     }
 }
